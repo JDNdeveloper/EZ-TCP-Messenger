@@ -26,22 +26,30 @@ enter to send. To stop the connection hit enter three times.
 Make sure to have both `ezTCPapp.py` and `ezTCPlib.py` downloaded and in the same 
 directory.
 
+It is best to start the app from commandline rather than in Python's IDLE.
+
 ##Example:
 Let's say that Bob at IP address 132.874.0.123 wants to talk to Kate at IP address 
-253.324.0.324. Bob starts up `ezTCPapp.py` and types the following:
+253.324.0.324. Bob starts up `./ezTCPapp.py` and types the following:
 
 `Enter your first name:` Bob
+
 `Enter target IP address:` 253.324.0.324
+
 `Enter target port:` 5005
+
 `Enter local port:` 5003
 
 `Waiting for remote connection...`
 
-Now on Kate's end, she starts `ezTCPapp.py` and types the following:
+Now on Kate's end, she starts `./ezTCPapp.py` and types the following:
 
 `Enter your first name:` Kate
+
 `Enter target IP address:` 132.874.0.123
+
 `Enter target port:` 5003
+
 `Enter local port:` 5005
 
 `Waiting for remote connection...`
