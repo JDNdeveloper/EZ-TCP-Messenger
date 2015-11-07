@@ -19,5 +19,5 @@ EZ TCP Messenger
 A simple TCP Instant Messaging app that allows for real time communication using TCP.
 
 Start up ezTCPapp.py, enter your name, a target IP address, a target port (ex. 5005), 
-and a local port (ex. 5005)! Then do the same on the target computer and you're ready 
+and a local port (ex. 5005). Then do the same on the target computer and you're ready 
 to start chatting!
