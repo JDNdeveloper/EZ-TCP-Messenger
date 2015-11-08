@@ -31,13 +31,19 @@ It is best to start the app from commandline rather than in Python's IDLE.
 There are Python 2 and Python 3 versions of the program. For the Python 2 version 
 go to `src-python2`, for the Python 3 version go to `src-python3`.
 
+NOTE: This will only work on Local Area Networks using internal IP addresses. To find 
+your internal IP address go to commmandline and type "ipconfig" on Windows and "ifconfig" 
+on a Mac or Linux machine. The address should start with 192.168.
+
 ##Example:
-Let's say that Bob at IP address 132.874.0.123 wants to talk to Kate at IP address 
-253.324.0.324. Bob starts up `./ezTCPapp.py` and types the following:
+Let's say that Bob at IP address 192.168.0.104 wants to talk to Kate at IP address 
+192.168.0.105. 
+
+Bob starts up `./ezTCPapp.py` and types the following:
 
 `Enter your first name:` Bob
 
-`Enter target IP address:` 253.324.0.324
+`Enter target IP address:` 192.168.0.105
 
 `Enter target port:` 5005
 
@@ -49,7 +55,7 @@ Now on Kate's end, she starts `./ezTCPapp.py` and types the following:
 
 `Enter your first name:` Kate
 
-`Enter target IP address:` 132.874.0.123
+`Enter target IP address:` 192.168.0.104
 
 `Enter target port:` 5003
 
