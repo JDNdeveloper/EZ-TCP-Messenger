@@ -28,6 +28,9 @@ directory.
 
 It is best to start the app from commandline rather than in Python's IDLE.
 
+There are Python 2 and Python 3 versions of the program. For the Python 2 version 
+go to src-python2, for the Python 3 version go to src-python3.
+
 ##Example:
 Let's say that Bob at IP address 132.874.0.123 wants to talk to Kate at IP address 
 253.324.0.324. Bob starts up `./ezTCPapp.py` and types the following:
