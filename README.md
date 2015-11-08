@@ -31,7 +31,7 @@ It is best to start the app from commandline rather than in Python's IDLE.
 There are Python 2 and Python 3 versions of the program. For the Python 2 version 
 go to `src-python2`, for the Python 3 version go to `src-python3`.
 
-NOTE: This will only work on Local Area Networks using internal IP addresses. To find 
+**NOTE:** This will only work on Local Area Networks using internal IP addresses. To find 
 your internal IP address go to commmandline and type "ipconfig" on Windows and "ifconfig" 
 on a Mac or Linux machine. The address should start with 192.168.
 
