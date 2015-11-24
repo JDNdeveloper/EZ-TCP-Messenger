@@ -1,3 +1,5 @@
+# Author: Jayden Navarro
+# Date: 11/24/2015
 #!/usr/bin/python3
 
 from ezTCPlib import TcpP2P
